@@ -1,5 +1,11 @@
+import React, { useState, useRef, useEffect } from 'react';
+import Header from '@/components/Header';
 function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="text-[#f1f3f5]">
+      <Header />
+    </div>
+  );
 }
 
 export default Home;
